@@ -4,10 +4,9 @@ import Header from "./components/Header"
 function App() {
 
   return (
-    <>
-      <h1>Gym time</h1>
+    <div className="bg-slate-600">
       <Header />
-    </>
+    </div>
   )
 }
 
