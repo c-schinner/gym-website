@@ -10,10 +10,11 @@ function App() {
       <Header />
       <Carousel />
       <div id="trainers">
+        <h1 className="text-5xl font-semibold text-center p-10 text-black">Meet our Trainers:</h1>
         <Trainers />
       </div>
       <div>
-        
+        <h1 className="text-5xl font-semibold text-center p-10 text-black">Fitness Classes:</h1>
       </div>
     </div>
   )

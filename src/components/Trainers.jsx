@@ -55,8 +55,7 @@ const TrainerCard = ({ trainer }) => {
             <img 
                 src={trainer.image}
                 alt={`${trainer.name}`}
-                className="w-32 h-32 rounded-xl object-cover mb-4" />
-
+                className="w-46 h-46 rounded-xl object-cover mb-4" />
             <h2 className="text-xl font-semibold mb-2">{trainer.name}</h2>
             <p className="text-black text-sm mb-2">
                 {showBio ? trainer.bio : `${trainer.bio.substring(0, 50)}...`}
