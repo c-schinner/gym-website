@@ -11,7 +11,7 @@ const Header = () => {
     }
 
     return (
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center relative">
             <div
             className="text-3xl font-semibold m-4 p-4 rounded-full text-black"
             style={{ backgroundImage: `url(${gymlogo})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -32,7 +32,7 @@ const Header = () => {
             </div>
 
             {isOpen && (
-                <div className="absolute top-16 right-4 bg-gray-800 text-white flex flex-col space-y-4 p-4 rounded-md md:hidden">
+                <div className="absolute top-16 right-4 bg-gray-800 text-white flex flex-col space-y-4 p-4 rounded-md md:hidden z-50">
                     <a href="#home" className="hover:text-gray-400">Home</a>
                     <a href="#trainers" className="hover:text-gray-400">Trainers</a>
                     <a href="#programs" className="hover:text-gray-400">Programs</a>
