@@ -68,7 +68,7 @@ const Programs = () => {
                     <div
                         key={program.id}
                         className={`absolute transition-transform duration-1500 ease-in-out transform ${
-                            isActive ? 'z-10 opacity-100 scale-100' : 'z-0 opacity-10 scale-75'
+                            isActive ? 'z-10 opacity-100 scale-100' : 'z-0 opacity-5 scale-75'
                     }`}
                     style={{
                         left: `${50 + offset}%`,
