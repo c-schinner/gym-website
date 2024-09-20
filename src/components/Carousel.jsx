@@ -1,16 +1,16 @@
 import { useState } from "react";
-import gympic1 from "../assets/gympic1.jpeg"
-import gympic2 from "../assets/gympic2.jpeg"
-import gympic3 from "../assets/gympic3.jpeg"
-import gympic4 from "../assets/gympic4.jpeg"
-import gympic5 from "../assets/gympic5.jpeg"
+import gympicture1 from "../assets/gympicture1.jpeg"
+import gympicture2 from "../assets/gympicture2.jpeg"
+import gympicture3 from "../assets/gympicture3.jpeg"
+import gympicture4 from "../assets/gympicture4.jpeg"
+import gympicture5 from "../assets/gympicture5.jpeg"
 import { BsArrowLeftSquareFill } from "react-icons/bs";
 import { BsArrowRightSquareFill } from "react-icons/bs";
 
 
 const Carousel = () => {
 
-    const images = [gympic1, gympic2, gympic3, gympic4, gympic5];
+    const images = [gympicture1, gympicture2, gympicture3, gympicture4, gympicture5];
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -27,7 +27,7 @@ const Carousel = () => {
     };
 
     return (
-        <div className="relative w-full h-64 flex items-center justify-center bg-gray-200">
+        <div className="relative w-full h-64 md:h-96 flex items-center justify-center bg-gray-200">
             <button
                 onClick={prevImage}
                 className="absolute left-4 p-2 bg-black text-white rounded-full hover:bg-gray-700">
