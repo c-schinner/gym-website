@@ -59,7 +59,7 @@ const Programs = () => {
 
 
     return (
-        <div className=" relative w-full h-96 overflow-hidden flex items-center justify-center bg-slate-600">
+        <div className=" relative w-full h-96 overflow-hidden flex items-center justify-center bg-black">
             {programs.map((program, index) => {
                 const isActive = index === currentIndex;
                 const offset = (index - currentIndex) * 20;
@@ -68,7 +68,7 @@ const Programs = () => {
                     <div
                         key={program.id}
                         className={`absolute transition-transform duration-1500 ease-in-out transform ${
-                            isActive ? 'z-10 opacity-100 scale-100' : 'z-0 opacity-25 scale-75'
+                            isActive ? 'z-10 opacity-100 scale-100' : 'z-0 opacity-10 scale-75'
                     }`}
                     style={{
                         left: `${50 + offset}%`,

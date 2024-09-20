@@ -51,13 +51,13 @@ const TrainerCard = ({ trainer }) => {
     }
 
     return (
-        <div className="bg-slate-400 p-4 rounded-md shadow-md flex flex-col items-center">
+        <div className="bg-black p-4 rounded-md shadow-md flex flex-col items-center">
             <img 
                 src={trainer.image}
                 alt={`${trainer.name}`}
                 className="w-46 h-46 rounded-xl object-cover mb-4" />
             <h2 className="text-xl font-semibold mb-2">{trainer.name}</h2>
-            <p className="text-black text-sm mb-2">
+            <p className="text-white text-sm mb-2">
                 {showBio ? trainer.bio : `${trainer.bio.substring(0, 50)}...`}
             </p>
             <button

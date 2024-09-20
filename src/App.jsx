@@ -7,15 +7,15 @@ import Trainers from "./components/Trainers"
 function App() {
 
   return (
-    <div className="bg-slate-600 p-6 mb-4">
+    <div className="bg-black p-6">
       <Header />
       <Carousel />
       <div id="trainers">
-        <h1 className="md:text-5xl text-3xl font-semibold text-center p-10 text-black">Meet our Trainers:</h1>
+        <h1 className="md:text-5xl text-3xl font-semibold text-center p-10 text-gray-500">Meet our Trainers:</h1>
         <Trainers />
       </div>
       <div id="programs">
-        <h1 className="md:text-5xl text-3xl font-semibold text-center p-10 text-black">Fitness Classes:</h1>
+        <h1 className="md:text-5xl text-3xl font-semibold text-center p-10 text-gray-500">Fitness Classes:</h1>
         <Programs />
       </div>
       <div>
