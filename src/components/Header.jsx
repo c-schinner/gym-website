@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <div className="flex flex-row items-center relative">
             <div
-            className="text-3xl font-semibold m-4 p-4 rounded-full text-black"
+            className="text-3xl font-semibold m-4 p-4 rounded-full text-gray-700"
             style={{ backgroundImage: `url(${gymlogo})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 My Gym
             </div>
