@@ -51,7 +51,8 @@ const TrainerCard = ({ trainer }) => {
     }
 
     return (
-        <div className="bg-black p-4 rounded-md shadow-md flex flex-col items-center">
+        <div className="bg-black p-4 rounded-md shadow-lg flex flex-col items-center"
+        style={{ boxShadow: '0 10px 20px rgba(255, 255, 255, 0.3)'}}>
             <img 
                 src={trainer.image}
                 alt={`${trainer.name}`}
